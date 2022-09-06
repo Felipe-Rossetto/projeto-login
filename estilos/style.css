@@ -7,3 +7,44 @@
     Branco: #FFFFFF
     Amarelo:#FFB30D
 */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Quicksand:wght@300;400&family=Sriracha&display=swap');
+
+* {
+    font-family: 'Quicksand';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html {
+    background-color: #FFB30D;
+    height: 100vh;
+    width: 100vw;
+}
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#login {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 200px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.347);
+}
+#login > #imagem {
+    display: block;
+    background: #FFB30D url(../imagens/pexels-nik-cvetkovic-13260611.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+}
+#login > #form {
+    display: block;
+    padding: 10px;
+}
